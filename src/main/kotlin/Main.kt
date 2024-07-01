@@ -1,5 +1,5 @@
 package com.github.phillipsj.corf
 
-fun main() {
-    println("Hello World!")
-}
+import com.github.ajalt.clikt.core.*
+
+fun main(args: Array<String>) = Manifest().subcommands(Create()).main(args)
